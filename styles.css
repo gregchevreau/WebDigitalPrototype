@@ -1,0 +1,133 @@
+/* Color Palette
+#222222 - raisin black
+#FFFFFF - white
+#1C5D99 - lapis lazuli
+#48E5C2 - turquoise
+#FCFAF9 - snow
+*/
+
+/* Global Styles
+-------------------------*/
+/* border box fit */
+html {
+    box-sizing: border-box;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #1C5D99;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+a {
+    color:#1C5D99; 
+}
+a:hover {
+    text-decoration: none;
+}
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+.column-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+}
+.column-wide {
+    width: 62%;
+    float: left;
+    padding-left: 20px;
+
+}
+
+/* Header and Footer
+-------------------------*/
+header, footer {
+    background:#FFFFFF;
+    color:#1C5D99;
+}
+/* header */
+.profile-img {
+    border-radius: 5%;
+}
+header h1, header h2 {
+    color:#1C5D99;
+    margin: 0;r
+}
+ footer 
+footer {
+    text-align: center;   
+}
+.contact-info a {
+    background: white;
+    padding: 10px;
+    display: inline-block;
+}
+/* Work Experience
+-------------------------*/
+.work {
+    background:#1C5D99;
+    color:white;
+}
+/* Education
+-------------------------*/
+.education {
+    background:#FFFFFF;
+}
+/* Footer
+-------------------------*/
+.footer {
+    background:#FCFAF9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
